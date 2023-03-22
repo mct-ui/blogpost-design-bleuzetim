@@ -7,6 +7,22 @@
 /*---------------------------------------/*
  # GENERIC
 /*---------------------------------------*/
+afont-face {
+  font-family: "Inter Web";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+afont-face {
+  font-family: "Inter Web";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+}
+
 *,
 *:before,
 *:after {
@@ -36,7 +52,7 @@ img {
 html {
   font-size: 100%;
   line-height: 1.5;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "droid-serif", serif;
   color: hsl(198.0786026201, 10%, 30%);
   scroll-behavior: smooth;
 }
@@ -58,6 +74,16 @@ html {
     ---
     Default markup for typographic elements
 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter Web", serif;
+  color: hsl(198.0786026201, 10%, 10%);
+}
+
 h1 {
   font-size: 1.8020324707rem;
   font-weight: 700;
